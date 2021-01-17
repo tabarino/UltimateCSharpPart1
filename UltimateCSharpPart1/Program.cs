@@ -1,4 +1,5 @@
 ﻿using System;
+using PrimitiveTypesAndExpressions;
 
 namespace UltimateCSharpPart1
 {
@@ -6,7 +7,11 @@ namespace UltimateCSharpPart1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //_ = new VariablesAndConstants();
+            //_ = new TypeConversion();
+            _ = new Operators();
+
+
         }
     }
 }
