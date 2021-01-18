@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateCSharpPart1", "Ulti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimitiveTypesAndExpressions", "PrimitiveTypesAndExpressions\PrimitiveTypesAndExpressions.csproj", "{C7630034-D627-49AB-8723-68D29AE8D82A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonPrimitiveTypes", "NonPrimitiveTypes\NonPrimitiveTypes.csproj", "{7FF5253B-5A86-4A2F-91A1-0C7CA716B269}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C7630034-D627-49AB-8723-68D29AE8D82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7630034-D627-49AB-8723-68D29AE8D82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7630034-D627-49AB-8723-68D29AE8D82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF5253B-5A86-4A2F-91A1-0C7CA716B269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF5253B-5A86-4A2F-91A1-0C7CA716B269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF5253B-5A86-4A2F-91A1-0C7CA716B269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF5253B-5A86-4A2F-91A1-0C7CA716B269}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

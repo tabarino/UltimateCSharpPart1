@@ -7,5 +7,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PrimitiveTypesAndExpressions\PrimitiveTypesAndExpressions.csproj" />
+    <ProjectReference Include="..\NonPrimitiveTypes\NonPrimitiveTypes.csproj" />
   </ItemGroup>
 </Project>
