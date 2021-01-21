@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlFlow", "ControlFlow\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAndLists", "ArraysAndLists\ArraysAndLists.csproj", "{3069ACC5-AE2F-4AB0-8F13-00718848F48E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithDates", "WorkingWithDates\WorkingWithDates.csproj", "{8764547A-F9D8-4E24-A0CF-20E922179D48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3069ACC5-AE2F-4AB0-8F13-00718848F48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3069ACC5-AE2F-4AB0-8F13-00718848F48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3069ACC5-AE2F-4AB0-8F13-00718848F48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8764547A-F9D8-4E24-A0CF-20E922179D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8764547A-F9D8-4E24-A0CF-20E922179D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8764547A-F9D8-4E24-A0CF-20E922179D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8764547A-F9D8-4E24-A0CF-20E922179D48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

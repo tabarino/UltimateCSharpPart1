@@ -3,6 +3,7 @@ using PrimitiveTypesAndExpressions;
 using NonPrimitiveTypes;
 using ControlFlow;
 using ArraysAndLists;
+using WorkingWithDates;
 
 namespace UltimateCSharpPart1
 {
@@ -16,7 +17,9 @@ namespace UltimateCSharpPart1
 
             //ControlFlow();
 
-            ArraysAndLists();
+            //ArraysAndLists();
+
+            WorkingWithDates();
         }
 
         static void PrimitiveTypesAndExpressions()
@@ -60,7 +63,13 @@ namespace UltimateCSharpPart1
         static void ArraysAndLists()
         {
             //_ = new ArraysAndLists.ArraysExample();
-            _ = new ListsExample();
+            //_ = new ListsExample();
+        }
+
+        static void WorkingWithDates()
+        {
+            //_ = new DateTimeExample();
+            _ = new TimeSpanExample();
         }
     }
 }

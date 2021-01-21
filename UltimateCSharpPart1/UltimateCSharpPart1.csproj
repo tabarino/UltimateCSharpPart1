@@ -10,5 +10,6 @@
     <ProjectReference Include="..\NonPrimitiveTypes\NonPrimitiveTypes.csproj" />
     <ProjectReference Include="..\ControlFlow\ControlFlow.csproj" />
     <ProjectReference Include="..\ArraysAndLists\ArraysAndLists.csproj" />
+    <ProjectReference Include="..\WorkingWithDates\WorkingWithDates.csproj" />
   </ItemGroup>
 </Project>
