@@ -8,5 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\PrimitiveTypesAndExpressions\PrimitiveTypesAndExpressions.csproj" />
     <ProjectReference Include="..\NonPrimitiveTypes\NonPrimitiveTypes.csproj" />
+    <ProjectReference Include="..\ControlFlow\ControlFlow.csproj" />
+    <ProjectReference Include="..\ArraysAndLists\ArraysAndLists.csproj" />
   </ItemGroup>
 </Project>

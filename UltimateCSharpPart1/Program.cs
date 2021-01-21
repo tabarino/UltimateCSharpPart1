@@ -1,6 +1,8 @@
 ﻿using System;
-using NonPrimitiveTypes;
 using PrimitiveTypesAndExpressions;
+using NonPrimitiveTypes;
+using ControlFlow;
+using ArraysAndLists;
 
 namespace UltimateCSharpPart1
 {
@@ -8,24 +10,32 @@ namespace UltimateCSharpPart1
     {
         static void Main(string[] args)
         {
-            //--------------------------------
-            // Primitive Types and Expressions
-            //--------------------------------
+            //PrimitiveTypesAndExpressions();
+
+            //NonPrimitiveTypes();
+
+            //ControlFlow();
+
+            ArraysAndLists();
+        }
+
+        static void PrimitiveTypesAndExpressions()
+        {
             //_ = new VariablesAndConstants();
             //_ = new TypeConversion();
             //_ = new Operators();
+        }
 
-            //--------------------
-            // Non-Primitive Types
-            //--------------------
+        static void NonPrimitiveTypes()
+        {
             //var john = new ClassPerson();
             //john.FirstName = "John";
             //john.LastName = "Doe";
             //john.Introduce();
 
-            //_ = new ArraysExample();
+            //_ = new NonPrimitiveTypes.ArraysExample();
             //_ = new StringsExample();
-            _ = new ReferenceTypesAndValueTypes();
+            //_ = new ReferenceTypesAndValueTypes();
 
             // Enums Example
             //var shippingMethod = EnumShippingMethod.Express;
@@ -36,6 +46,21 @@ namespace UltimateCSharpPart1
             //var methodName = "RegularAirMail";
             //var parseMethod = (EnumShippingMethod)Enum.Parse(typeof(EnumShippingMethod), methodName);
             //Console.WriteLine(parseMethod);
+        }
+
+        static void ControlFlow()
+        {
+            //_ = new IfElseSwitchCase();
+            //_ = new ForLoops();
+            //_ = new ForeachLoops();
+            //_ = new WhileLoops();
+            //_ = new RandomClass();
+        }
+
+        static void ArraysAndLists()
+        {
+            //_ = new ArraysAndLists.ArraysExample();
+            _ = new ListsExample();
         }
     }
 }
