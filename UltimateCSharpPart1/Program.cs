@@ -4,6 +4,7 @@ using NonPrimitiveTypes;
 using ControlFlow;
 using ArraysAndLists;
 using WorkingWithDates;
+using WorkingWithText;
 
 namespace UltimateCSharpPart1
 {
@@ -19,7 +20,9 @@ namespace UltimateCSharpPart1
 
             //ArraysAndLists();
 
-            WorkingWithDates();
+            //WorkingWithDates();
+
+            WorkingWithText();
         }
 
         static void PrimitiveTypesAndExpressions()
@@ -69,7 +72,17 @@ namespace UltimateCSharpPart1
         static void WorkingWithDates()
         {
             //_ = new DateTimeExample();
-            _ = new TimeSpanExample();
+            //_ = new TimeSpanExample();
+        }
+
+        static void WorkingWithText()
+        {
+            //_ = new StringsTest();
+
+            //var summary = new SummarizingText();
+            //Console.WriteLine(summary.SummarizeText("This is going to be a really really really long text", 25));
+
+            _ = new StringBuilderTest();
         }
     }
 }
