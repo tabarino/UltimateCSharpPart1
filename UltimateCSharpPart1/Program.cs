@@ -5,6 +5,7 @@ using ControlFlow;
 using ArraysAndLists;
 using WorkingWithDates;
 using WorkingWithText;
+using WorkingWithFiles;
 
 namespace UltimateCSharpPart1
 {
@@ -22,7 +23,9 @@ namespace UltimateCSharpPart1
 
             //WorkingWithDates();
 
-            WorkingWithText();
+            //WorkingWithText();
+
+            WorkingWithFiles();
         }
 
         static void PrimitiveTypesAndExpressions()
@@ -82,7 +85,14 @@ namespace UltimateCSharpPart1
             //var summary = new SummarizingText();
             //Console.WriteLine(summary.SummarizeText("This is going to be a really really really long text", 25));
 
-            _ = new StringBuilderTest();
+            //_ = new StringBuilderTest();
+        }
+
+        static void WorkingWithFiles()
+        {
+            //_ = new FileAndFileInfo();
+            //_ = new DirectoryAndDirectoryInfo();
+            _ = new PathExample();
         }
     }
 }

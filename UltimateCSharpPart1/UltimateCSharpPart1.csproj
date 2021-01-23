@@ -12,5 +12,6 @@
     <ProjectReference Include="..\ArraysAndLists\ArraysAndLists.csproj" />
     <ProjectReference Include="..\WorkingWithDates\WorkingWithDates.csproj" />
     <ProjectReference Include="..\WorkingWithText\WorkingWithText.csproj" />
+    <ProjectReference Include="..\WorkingWithFiles\WorkingWithFiles.csproj" />
   </ItemGroup>
 </Project>
